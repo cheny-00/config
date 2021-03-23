@@ -2,6 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
+export PATH="$HOME/.local/bin:$PATH"
 export ZSH="/home/chy/.oh-my-zsh"
 export TERM="xterm-256color"
 # Set name of the theme to load --- if set to "random", it will
@@ -103,4 +104,5 @@ alias tl="tmux list-session"
 alias tkss="tmux kill-session -t"
 alias ta="tmux attach -t"
 alias ts="tmux new-session -s"
+
 
